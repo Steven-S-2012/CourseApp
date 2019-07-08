@@ -1,0 +1,23 @@
+.jr-top-nav {
+  background-color: #4286f4;
+  border: 1px solid #4286f4;
+}
+
+.jr-top-nav .navbar-nav > li > a {
+  color: #fff;
+}
+
+.jr-top-nav .navbar-brand {
+  color: #fff;
+}
+
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.weatherContainer {
+  margin: 0 35px 0 15px;
+}

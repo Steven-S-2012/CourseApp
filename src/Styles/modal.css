@@ -1,0 +1,14 @@
+.jr-modal {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.jr-modal__caption {
+  font-size: 16px;
+}
+
+.jr-modal__buttons {
+  align-self: flex-end;
+  margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+.jr-clock {
+  background-color: #fd8961;
+  color: #fff;
+  max-width: 300px;
+  margin: 0 15px;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+.jr-clock__date {
+  background-color: #e87f5a;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.jr-clock__time {
+  padding: 20px 20px;
+  display: flex;
+}
+
+.jr-clock__time-square {
+  background-color: #e87f5a;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+  display: inline-block;
+}
+
+.jr-clock__time-colon {
+  height: 70px;
+  line-height: 70px;
+  width: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.jr-clock__time-square:first-child{
+  margin-left: 0;
+}

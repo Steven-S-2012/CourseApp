@@ -1,0 +1,21 @@
+.jr-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jr-spinner {
+  height: 36px;
+  width: 36px;
+  -webkit-animation: rotate 0.8s infinite linear;
+  animation: rotate 0.8s infinite linear;
+  border: 2px solid #38b;
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,18 @@
+.jr-person-item {
+  display: flex;
+}
+
+.jr-person-item__text {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.jr-person-item__name {
+  font-weight: bold;
+}
+
+.jr-person-item__email {
+  margin-left: 15px;
+}

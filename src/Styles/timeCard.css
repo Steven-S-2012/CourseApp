@@ -1,0 +1,18 @@
+.title {
+  margin-top: 0;
+  padding: 15px;
+}
+
+.navbar .cityLabel {
+  height: 34px;
+  padding: 7px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.googlemap {
+  height: 250px;
+  margin: 30px auto;
+}

@@ -1,0 +1,22 @@
+
+#marqueetest {
+  width: 100%px;
+  height: 200px;
+  border:1px solid #ccc;
+  overflow: hidden;
+  -moz-box-shadow:1px 1px 3px 2px rgba(20%,20%,40%,0.5) inset;
+  -webkit-box-shadow:1px 1px 3px 2px rgba(20%,20%,40%,0.5) inset;
+  box-shadow:1px 1px 3px 2px rgba(20%,20%,40%,0.5) inset;
+}
+#demotest {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-animation: runing 5s infinite linear;
+  animation: runing 5s infinite linear;
+}
+
+@keyframes runing {
+  0% { transform: translate3d(0, 100px, 0) }
+  100% { transform: translate3d(0, -200px, 0) }
+}
