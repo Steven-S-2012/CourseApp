@@ -3,6 +3,7 @@ import React from 'react';
 import HeadPage from './HeadPage';
 import lazyLoading from '../../Utils/scroll';
 
+// lazyloading picture wall
 class Pictures extends React.Component {
   componentDidMount() {
     lazyLoading();
